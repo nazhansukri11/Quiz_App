@@ -9,16 +9,17 @@
 body{
     font-family: "Poppins", sans-serif;
     margin: 0;
-    background-color: rgb(238, 235, 235);
+    background-color: #56042C;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    color: white;
 }
 
 .quiz-container{
-    background-color: aliceblue;
+    background-color: #1077C3;
     width: 400px;
     /* display: flex;
     flex-direction: column;
@@ -27,13 +28,32 @@ body{
     border-radius: 10px;
     box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
     max-width: 100%;
+    overflow: hidden;
 }
 
 .question-header{
-    padding:2rem;
+    padding:1rem 2rem;
 }
 
 ul{
     list-style-type: none;
     padding: 0;
+}
+ul li{
+    margin: 10px;
+    font-size: 1rem;
+}
+button{
+    background-color:#FEC310 ;
+    color:#49bCE3;
+    font-family: inherit;
+    display: block;
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+    padding: 18px;
+}
+
+button:hover{
+    color:rgb(166, 160, 160);
 }
